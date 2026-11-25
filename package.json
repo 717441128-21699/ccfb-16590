@@ -1,0 +1,22 @@
+{
+  "name": "swiss-lever-escapement-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebGPU three-dimensional Swiss lever escapement teaching workbench",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:browser": "node scripts/browser-check.mjs"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.51",
+    "playwright-core": "^1.65.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5"
+  }
+}
